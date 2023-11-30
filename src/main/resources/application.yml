@@ -12,4 +12,4 @@ server:
   port: 8080
   
 booksDB:
-  host: ${BACKEND_URL}
+  host: ${BOOKS_URL}
