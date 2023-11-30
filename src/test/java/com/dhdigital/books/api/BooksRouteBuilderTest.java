@@ -44,8 +44,8 @@ public class BooksRouteBuilderTest{
 	@Autowired
 	ApplicationContext applicationContext;
 
-	@EndpointInject("mock://"+"{{booksDB.host}}"+"/Books") // mock://https://94dd0060-f5fc-4bc9-a3fd-6202e3289f5d.mock.pstmn.io/Books
-//	@EndpointInject("mock://https://94dd0060-f5fc-4bc9-a3fd-6202e3289f5d.mock.pstmn.io/Books")
+	// @EndpointInject("mock://"+"{{booksDB.host}}"+"/Books") // mock://https://94dd0060-f5fc-4bc9-a3fd-6202e3289f5d.mock.pstmn.io/Books
+	@EndpointInject("mock://https://94dd0060-f5fc-4bc9-a3fd-6202e3289f5d.mock.pstmn.io/Books")
 	private MockEndpoint bookDetailsEndpoint;
 	
 	@Test
