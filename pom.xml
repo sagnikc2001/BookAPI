@@ -217,6 +217,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>BookAPI</finalName>
 	</build>
 
 </project>
