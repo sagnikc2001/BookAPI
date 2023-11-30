@@ -8,4 +8,4 @@ COPY . /app
 
 RUN mvn install
 
-ENTRYPOINT ["java", "-jar", "BookAPI.jar"]
+ENTRYPOINT ["java", "-jar", "target/BookAPI.jar"]
