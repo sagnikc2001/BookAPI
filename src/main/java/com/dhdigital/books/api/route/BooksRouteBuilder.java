@@ -25,11 +25,11 @@ public class BooksRouteBuilder extends RouteBuilder{
 		restConfiguration()
 		 .bindingMode(RestBindingMode.auto);
 		
-		rest("/api")
+		rest("/v1")
 		
 //		http://localhost:8080/api/v1/Book
 		
-		.post("/v1/Book")
+		.post("/Book")
 		 .type(BookRequest.class)
 		 .outType(BookResponse.class)
 		 .produces("application/json")
